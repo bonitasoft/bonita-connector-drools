@@ -1,0 +1,71 @@
+<object-stream>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Child [2]</activationId>
+  <rule>Child</rule>
+  <declarations>a=name:Jordi, age:8, status:null(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>2</factId>
+  <objectToString>name:Jordi, age:8, status:null</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Young [3]</activationId>
+  <rule>Young</rule>
+  <declarations>a=name:Marc, age:15, status:null(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>3</factId>
+  <objectToString>name:Marc, age:15, status:null</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Adult [4]</activationId>
+  <rule>Adult</rule>
+  <declarations>a=name:Albert, age:32, status:null(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>4</factId>
+  <objectToString>name:Albert, age:32, status:null</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Adult [4]</activationId>
+  <rule>Adult</rule>
+  <declarations>a=name:Albert, age:32, status:null(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Adult [4]</activationId>
+  <rule>Adult</rule>
+  <declarations>a=name:Albert, age:32, status:Adult(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Young [3]</activationId>
+  <rule>Young</rule>
+  <declarations>a=name:Marc, age:15, status:null(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Young [3]</activationId>
+  <rule>Young</rule>
+  <declarations>a=name:Marc, age:15, status:Young(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Child [2]</activationId>
+  <rule>Child</rule>
+  <declarations>a=name:Jordi, age:8, status:null(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Child [2]</activationId>
+  <rule>Child</rule>
+  <declarations>a=name:Jordi, age:8, status:Child(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+</object-stream>

@@ -9,14 +9,18 @@
         <version>6.1.0-rc-01</version>
     </parent>
 
-
-    <groupId>bonita-connector-drools</groupId>
+    <groupId>org.bonita.connector</groupId>
     <artifactId>bonita-connector-drools</artifactId>
     <version>6.2.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <modules>
+        <module>bonita-connector-drools-common</module>
+    </modules>
 
     <build>
         <plugins>
